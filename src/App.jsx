@@ -23,6 +23,18 @@ function App() {
       <main>
         <h1>Olá, me chamo Felipe Teixeira e sou Dev Full-Stack :)</h1>
       </main>
+
+      <section className='about'>
+        <div className='imageBox'>
+          <img src="" alt="" />
+        </div>
+        <div>
+          <h2>Sobre mim</h2>
+          <p>Tenho 21 anos e já atuo na área como autonomo e inserido dentro de alguns projetos a mais de um anos. Desde 2019 venho me aventurando estudando tecnologias de desenvolvimento web, como Python, Javascript, React...</p><br />
+          <p>Atualmente finalizei o curso de desenvolvimento web da Cubos Academy que explora não só as hard skills como também soft skills. Tendo assim projetos reais em equipe onde atuei como dev fullstack já que tenho conhecimento técnico para atuar no front e no back end.</p><br />
+          <p>E para finalizar estou a caminho da minha graduação realizando o bacharelado e sistemas de informação na Universidade Federal Rural de Pernambuco - UFRPE.</p>
+        </div>
+      </section>
     </section>
 
 
