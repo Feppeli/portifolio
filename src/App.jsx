@@ -1,5 +1,6 @@
 import './App.css'
 import menuIcon from './assets/icons/interface.png'
+import perfilImage from './assets/Perfil image.png'
 
 function App() {
 
@@ -9,24 +10,28 @@ function App() {
 
   const brand = '{{Portifólio}}'
   return (
-    <section className='container'>
-      <nav>
+    <section >
+      <nav className='container'>
         <div className="brand">
           <h2>{brand}</h2>
-          <button onClick={menuButton}>
+          <button className='menuButton' onClick={menuButton}>
             <img src={menuIcon} alt="" />
           </button>
         </div>
       </nav>
 
 
-      <main>
+      <main className='container'>
         <h1>Olá, me chamo Felipe Teixeira e sou Dev Full-Stack :)</h1>
+
+        <div className='buttonBox'>
+          <a href="#projects">Meus Projetos</a>
+        </div>
       </main>
 
       <section className='about'>
         <div className='imageBox'>
-          <img src="" alt="" />
+          <img src={perfilImage} alt="" />
         </div>
         <div>
           <h2>Sobre mim</h2>
