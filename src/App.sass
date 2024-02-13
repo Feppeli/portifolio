@@ -40,6 +40,8 @@ main
     justify-content: center
 
     h1
+
+        margin-top: 5rem
         font-weight: 900
         line-height: 3.5rem
         font-size: 3rem
@@ -69,6 +71,17 @@ main
             font-size: 1.2rem
             font-weight: bold
 
+    .arrowIcon
+        margin-top: 5rem
+        width: 3.5rem
+
+    .floating
+        animation: float 2s ease-in-out infinite
+
+    @keyframes float
+        50%
+            transform: translateY(-20%)
+
 /* ABOUT */
 .about
 
@@ -80,9 +93,23 @@ main
 
     .imageBox
         display: flex
+        flex-direction: column
         align-items: center
         justify-content: center
+
+    h1
+        margin-top: 2rem
+        font-size: 2rem
+        color: #f5f5f5 
 
     img
         max-width: 90vw
         border-radius: 8px
+
+        margin-top: 3rem
+
+    .aboutText
+        color: #f5f5f5
+        padding: 1rem
+
+        padding-bottom: 3rem

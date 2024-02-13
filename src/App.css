@@ -38,6 +38,7 @@ main {
   justify-content: center;
 }
 main h1 {
+  margin-top: 5rem;
   font-weight: 900;
   line-height: 3.5rem;
   font-size: 3rem;
@@ -63,6 +64,18 @@ main .buttonBox a {
   font-size: 1.2rem;
   font-weight: bold;
 }
+main .arrowIcon {
+  margin-top: 5rem;
+  width: 3.5rem;
+}
+main .floating {
+  animation: float 2s ease-in-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translateY(-20%);
+  }
+}
 
 /* ABOUT */
 .about {
@@ -73,10 +86,22 @@ main .buttonBox a {
 }
 .about .imageBox {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.about h1 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #f5f5f5;
 }
 .about img {
   max-width: 90vw;
   border-radius: 8px;
+  margin-top: 3rem;
+}
+.about .aboutText {
+  color: #f5f5f5;
+  padding: 1rem;
+  padding-bottom: 3rem;
 }/*# sourceMappingURL=App.css.map */
