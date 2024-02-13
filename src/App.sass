@@ -71,6 +71,11 @@ main
             font-size: 1.2rem
             font-weight: bold
 
+    .buttonBox:hover
+        transition: 0.8s
+        background: #3f3f3f
+        border-radius: 25px
+
     .arrowIcon
         margin-top: 5rem
         width: 3.5rem
@@ -100,7 +105,7 @@ main
     h1
         margin-top: 2rem
         font-size: 2rem
-        color: #f5f5f5 
+        color: #f5f5f5
 
     img
         max-width: 90vw
@@ -113,3 +118,28 @@ main
         padding: 1rem
 
         padding-bottom: 3rem
+
+/* premiações */
+
+.premiacoes
+
+    .premiacoesHeader
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+
+        width: 100%
+        margin-top: 2.5rem
+
+    .trofeuIcon
+        width: 100px
+        animation: pulse 2s infinite ease-in-out
+
+    @keyframes  pulse
+        50%
+            transform: scale(0.9)
+
+    h1
+        margin-top: .3rem
+        font-size: 2rem
