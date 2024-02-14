@@ -159,4 +159,32 @@ main .floating {
 .premiacoes .premiacaoTextContainer p {
   padding-top: 0.1rem;
   color: #f3f3f3;
+}
+
+/* tecnologias */
+.tecnologys {
+  background: #171717;
+}
+.tecnologys .tecnologysHeader {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.tecnologys .tecnologysHeader img {
+  width: 50px;
+  animation: spin 3s infinite ease-in-out;
+}
+.tecnologys .tecnologysHeader h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=App.css.map */

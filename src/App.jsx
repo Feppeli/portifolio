@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './App.css'
 import menuIcon from './assets/icons/interface.png'
 import perfilImage from './assets/Perfil image.png'
@@ -6,6 +7,7 @@ import arrowIcon from './assets/icons/down-arrow.png'
 import trofeu from './assets/icons/trofeu.png'
 import premio1 from './assets/premio1.jpeg'
 import premio2 from './assets/premio2.png'
+import reactIcon from "./assets/reactIcon.png"
 
 function App() {
 
@@ -91,6 +93,16 @@ function App() {
           </div>
         </div>
       </section>
+
+{/* tecnologias */}
+      <section className="tecnologys">
+        <div className="tecnologysHeader">
+          <img src={reactIcon} alt="" />
+          <h1>Tecnologias</h1>
+        </div>
+      </section>
+
+      
     </section>
 
 
