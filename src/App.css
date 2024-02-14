@@ -133,4 +133,30 @@ main .floating {
 .premiacoes h1 {
   margin-top: 0.3rem;
   font-size: 2rem;
+}
+.premiacoes .premiacao {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.premiacoes .premiacaoImgContainer {
+  width: 90%;
+  max-width: 450px;
+  background: #3e3e3e;
+  border-radius: 0.2rem;
+}
+.premiacoes .premiacaoImgContainer img {
+  padding: 1.5rem 1rem;
+  padding-bottom: 0.2rem;
+  width: 100%;
+}
+.premiacoes .premiacaoTextContainer h3 {
+  color: #fff;
+}
+.premiacoes .premiacaoTextContainer p {
+  padding-top: 0.1rem;
+  color: #f3f3f3;
 }/*# sourceMappingURL=App.css.map */
