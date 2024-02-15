@@ -187,4 +187,11 @@ main .floating {
   100% {
     transform: rotate(360deg);
   }
+}
+.tecnologys .tecnologysContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }/*# sourceMappingURL=App.css.map */
