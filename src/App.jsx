@@ -48,7 +48,7 @@ function App() {
         <h1>Olá, me chamo Felipe Teixeira e sou Dev Full-Stack :)</h1>
 
         <div className='buttonBox'>
-          <a href="#projects">Meus Projetos</a>
+          <a href="https://w.app/Mozila" target='_blank'>Quero um Orçamento</a>
         </div>
 
         <img src={arrowIcon} alt="" className='arrowIcon floating' />
@@ -92,17 +92,17 @@ function App() {
         </div>
 
         <div className="tecnologysContainer container">
-          <TecnologyBox image={typescript} title={"Typescript"} />
-          <TecnologyBox image={sass} title={"Sass"} />
-          <TecnologyBox image={materialUI} title={"MaterialUi"} />
-          <TecnologyBox image={javascript} title={"Javascript"} />
-          <TecnologyBox image={node} title={"Node"} />
-          <TecnologyBox image={nest} title={"Nest"} />
-          <TecnologyBox image={express} title={"Express"} />
-          <TecnologyBox image={react} title={"React"} />
-          <TecnologyBox image={postgress} title={"Postgress"} />
-          <TecnologyBox image={python} title={"Python"} />
-          <TecnologyBox image={django} title={"Django"} />
+          <TecnologyBox image={typescript} title={"Typescript"} description={"Tecnologia Fortmente tipada utilizada em desenvolvimento web."}/>
+          <TecnologyBox image={sass} title={"Sass"} description={"Tecnologia Web que dar 'super poderes' ao css, agilizando e fortalecendo a estilização da página."}/>
+          <TecnologyBox image={materialUI} title={"MaterialUi"} description={"Lib focada em agilidade de desenvolvimento com componentes pré configurados."}/>
+          <TecnologyBox image={javascript} title={"Javascript"}  description="Tecnologia web mais utilizada, tendo o foco essencial no Front-End."/>
+          <TecnologyBox image={node} title={"Node"} description={"Interpretador poderoso, capaz de entender o typescript e o javascript para auxiliar no desenvolviemnto."}/>
+          <TecnologyBox image={nest} title={"Nest"} description={"Framework backend baseado no NodeJS, tendo o seu foco o desenvolvimento rápido de API Rest e Rest Full."}/>
+          <TecnologyBox image={express} title={"Express"} description={"Framework baseado no NodeJS que tem como foco o desenvolvimento de Apis Rest e Rest Full com estrutura Sólidas"}/>
+          <TecnologyBox image={react} title={"React"} description={"Lib desenvolvida pela Meta utilizada para o desenvolvimento Front-End de sistemas web."}/>
+          <TecnologyBox image={postgress} title={"Postgress"} description={"Banco de dados relacional de baixo custo de operação muito utilizado em desenvolviemnto de grandes plataformas."}/>
+          <TecnologyBox image={python} title={"Python"} description={"Linguagem de programação Utilizada para o desenvolviemnto de sistemas web, ciência de dados e desenvolvimento de IA"}/>
+          <TecnologyBox image={django} title={"Django"} description={"Framework web com o foco no desenvolviemnto de sistemas utilizando como sua linguagem principal o Python."}/>
         </div>
       </section>
 
