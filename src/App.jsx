@@ -55,8 +55,8 @@ function App() {
       </main>
 
       {/* about */}
-      <section className='about'>
-        <div className='imageBox'>
+      <section className='about '>
+        <div className='imageBox container'>
           <h1>Quem sou?</h1>
           <img src={perfilImage} alt="" />
         </div>
@@ -106,7 +106,11 @@ function App() {
         </div>
       </section>
 
-
+      <footer className='footer'>
+        <div className="footerContainer">
+          <p>Feito por <a href="https://www.linkedin.com/in/felipe-teixeira-devfullstack">Felipe Teixeira</a></p>
+        </div>
+      </footer>
     </section>
 
 
